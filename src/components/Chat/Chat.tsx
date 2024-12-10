@@ -6,6 +6,7 @@ import CardGiftcardIcon from "@mui/icons-material/CardGiftcard";
 import GifIcon from "@mui/icons-material/Gif";
 // import SentimentSatisfiedAltIcon from '@mui/icons-material/SentimentSatisfiedAlt';
 import { EmojiEmotions } from "@mui/icons-material";
+import ChatMessage from "./ChatMessage";
 
 function Chat() {
   return (
@@ -14,7 +15,13 @@ function Chat() {
       <ChatHeader />
 
       {/* メッセージ */}
-      <div className="chatMessage"></div>
+      <div className="chatMessage">
+      <ChatMessage />
+      <ChatMessage />
+      <ChatMessage />
+      <ChatMessage />
+      </div>
+
       {/* チャットフッター */}
       <div className="chatInput">
         <AddCircleOutlineIcon />
