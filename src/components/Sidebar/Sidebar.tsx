@@ -23,7 +23,7 @@ const Sidebar = () => {
       {/* サイドバー右 */}
       <div className="sidebarRight">
         <div className="sidebarTop">
-          <h3>Discord</h3>
+          <h3>ReaCord</h3>
           <ExpandMoreIcon />
         </div>
 
@@ -32,7 +32,7 @@ const Sidebar = () => {
           <div className="sidebarChannelsHeader">
             <div className="sidebarHeader">
               <ExpandMoreIcon />
-              <h4>プログラミングチャンネル</h4>
+              <h4>チャンネル</h4>
             </div>
             <AddIcon className="sidebarAddIcon" />
           </div>
